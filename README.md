@@ -31,7 +31,7 @@ I'm a passionate **Software Developer** committed to building efficient and scal
 
 ## 📈 GitHub Stats
 
-![Chegini's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-chegini&show_icons=true&theme=radical)
+![Chegini's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-chegini&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-chegini&layout=compact&theme=radical)
 
