@@ -1,6 +1,4 @@
-# Hi there, I'm Chegini! 👋
-
-![Avatar](https://via.placeholder.com/150)
+# Hi there! 👋
 
 I'm a passionate **Software Developer** with a strong focus on **backend development**. I also have knowledge and experience in **DevOps** and **front-end development**. My expertise spans across various modern technologies and tools that help build robust and scalable applications.
 
@@ -48,29 +46,6 @@ I'm committed to building efficient and scalable backend systems. My work mainly
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=radical)
 
 ## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-<!-- If you have a blog, you can link your latest posts here -->
-<!-- BLOG-POST-LIST:END -->
-
-## 🎓 Certifications & Achievements
-
-- [Certification Name](#)
-- [Achievement Name](#)
-
-## 📚 Learning & Development
-
-I'm constantly learning and growing. Here are some of the courses and books I'm currently exploring:
-
-- [Course/Book Name](#)
-- [Course/Book Name](#)
-
-## 💡 Open Source Contributions
-
-I'm passionate about contributing to open source projects and helping the community. Here are some of my contributions:
-
-- [Project Name](#)
-- [Project Name](#)
 
 ## 📫 How to Reach Me
 
