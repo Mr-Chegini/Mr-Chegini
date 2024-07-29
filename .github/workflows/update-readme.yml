@@ -1,0 +1,34 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs every hour
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate README content
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+        run: |
+          echo "## 📈 GitHub Stats" > stats.md
+          echo "![Chegini's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mr-chegini&show_icons=true&theme=radical&count_private=true&include_all_commits=true)" >> stats.md
+          echo "![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mr-chegini&layout=compact&theme=radical&count_private=true)" >> stats.md
+      - name: Update README
+        run: |
+          sed -i '/## 📈 GitHub Stats/,$d' README.md
+          cat stats.md >> README.md
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Update README with latest stats"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
